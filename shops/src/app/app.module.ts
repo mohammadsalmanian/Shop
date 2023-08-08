@@ -7,6 +7,8 @@ import { SiteHeaderComponent } from './SharedComponent/site-header/site-header.c
 import { SiteFooterComponent } from './SharedComponent/site-footer/site-footer.component';
 import { IndexComponent } from './pages/index/index.component';
 import { SliderComponent } from './pages/slider/slider.component';
+import { SpecialProductsComponent } from './pages/special-products/special-products.component';
+import { NewProductsComponent } from './pages/new-products/new-products.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SliderComponent } from './pages/slider/slider.component';
     SiteHeaderComponent,
     SiteFooterComponent,
     IndexComponent,
-    SliderComponent
+    SliderComponent,
+    SpecialProductsComponent,
+    NewProductsComponent
   ],
   imports: [
     BrowserModule,
