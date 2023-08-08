@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SiteHeaderComponent } from './SharedComponent/site-header/site-header.component';
+import { SiteFooterComponent } from './SharedComponent/site-footer/site-footer.component';
+import { IndexComponent } from './pages/index/index.component';
+import { SliderComponent } from './pages/slider/slider.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SiteHeaderComponent,
+    SiteFooterComponent,
+    IndexComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
