@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "79f1f74a-ba6f-4591-b38b-97c3439c1439": {
+      "ProjectGuid": "79f1f74a-ba6f-4591-b38b-97c3439c1439",
+      "DisplayName": "Shapino.WebApi",
+      "ColorIndex": 0
+    },
+    "f16a0622-7007-45b8-a5a4-6776c510d891": {
+      "ProjectGuid": "f16a0622-7007-45b8-a5a4-6776c510d891",
+      "DisplayName": "Shapino.DataLayer",
+      "ColorIndex": 1
+    },
+    "c6e19f1e-02b1-48dc-8f2c-85fe3b4607e1": {
+      "ProjectGuid": "c6e19f1e-02b1-48dc-8f2c-85fe3b4607e1",
+      "DisplayName": "Shapino.Cor",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
