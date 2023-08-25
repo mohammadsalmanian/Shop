@@ -3,3 +3,12 @@ G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataL
 G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataLayer.AssemblyInfoInputs.cache
 G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataLayer.AssemblyInfo.cs
 G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataLayer.csproj.CoreCompileInputs.cache
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\bin\Debug\net6.0\Shapino.DataLayer.deps.json
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\bin\Debug\net6.0\Shapino.DataLayer.runtimeconfig.json
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\bin\Debug\net6.0\Shapino.DataLayer.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\bin\Debug\net6.0\ref\Shapino.DataLayer.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\bin\Debug\net6.0\Shapino.DataLayer.pdb
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataLayer.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\ref\Shapino.DataLayer.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataLayer.pdb
+G:\shopino\Shop\BackEnd\Shapino\Shapino.DataLayer\obj\Debug\net6.0\Shapino.DataLayer.genruntimeconfig.cache

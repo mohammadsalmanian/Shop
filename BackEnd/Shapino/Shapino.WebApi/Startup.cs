@@ -4,34 +4,34 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Shapino.Cor.Utilities.Extensions.Connection;
 
 namespace Shapino.WebApi
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
+        public Startup(IConfiguration configuration,Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
         {
-            Configuration = configuration;
-            HostingEnvironment = hostingEnvironment;
+            Configuration = Configuration;   
+            HostingEnvironment = hostingEnvironment;            
         }
-        public IConfiguration Configuration { get; }
-        public Microsoft.AspNetCore.Hosting.IHostingEnvironment HostingEnvironment { get; }
+        public IConfiguration Configuration { get;}
+        public Microsoft.AspNetCore.Hosting.IHostingEnvironment HostingEnvironment { get;}
+
         // This method gets called by the runtime. Use this method to add services to the container
-        public void ConfigureServices0(IServiceCollection services)
+
+        public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IConfiguration>(new ConfigurationBuilder().SetBasePath(
-                Directory.GetCurrentDirectory()
-                ).AddJsonFile($"appsettings.json").Build());            
+            services.AddSingleton<IConfiguration>(new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile($"appsettings.json")
+                .Build()
+                );
+            services.AddApplicationDbContext(Configuration);
 
-            //services.AddApplicationDbContext(Configuration);
-
-            /*services.AddDbContext<AngularEshopDbContext>(options =>
-            {
-                var connectionString = "ConnectionStrings:AngularEshopConnection:Development";
-                options.UseSqlServer(Configuration[connectionString]);
-            });*/
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
-
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
         {

@@ -1,0 +1,17 @@
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\Shapino.Cor.deps.json
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\Shapino.Cor.runtimeconfig.json
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\Shapino.Cor.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\ref\Shapino.Cor.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\Shapino.Cor.pdb
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\Shapino.DataLayer.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\bin\Debug\net6.0\Shapino.DataLayer.pdb
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.csproj.AssemblyReference.cache
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.GeneratedMSBuildEditorConfig.editorconfig
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.AssemblyInfoInputs.cache
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.AssemblyInfo.cs
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.csproj.CoreCompileInputs.cache
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.csproj.CopyComplete
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\ref\Shapino.Cor.dll
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.pdb
+G:\shopino\Shop\BackEnd\Shapino\Shapino.Cor\obj\Debug\net6.0\Shapino.Cor.genruntimeconfig.cache

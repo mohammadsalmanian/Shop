@@ -16,4 +16,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Shapino.Cor\Shapino.Cor.csproj" />
+    <ProjectReference Include="..\Shapino.DataLayer\Shapino.DataLayer.csproj" />
+  </ItemGroup>
+
 </Project>
