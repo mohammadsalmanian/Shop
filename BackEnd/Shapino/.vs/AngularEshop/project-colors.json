@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ba0b13b2-9d66-4be3-8bd0-f58201f0bed9": {
+      "ProjectGuid": "ba0b13b2-9d66-4be3-8bd0-f58201f0bed9",
+      "DisplayName": "AngularEshop.Core",
+      "ColorIndex": 0
+    },
+    "724965cb-fa8d-4658-b9a2-0d7bb676c204": {
+      "ProjectGuid": "724965cb-fa8d-4658-b9a2-0d7bb676c204",
+      "DisplayName": "AngularEshop.DataLayer",
+      "ColorIndex": 1
+    },
+    "3792943e-0971-4598-8b60-2b97df7607f8": {
+      "ProjectGuid": "3792943e-0971-4598-8b60-2b97df7607f8",
+      "DisplayName": "AngularEshop.WebApi",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

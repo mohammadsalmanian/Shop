@@ -11,10 +11,14 @@ namespace AngularEshop.DataLayer.Context
 
         public AngularEshopDbContext(DbContextOptions<AngularEshopDbContext> options) : base(options)
         {
-        }
-
+        }       
+       
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Data Source=.; Initial Catalog=ShopinoDb;Integrated Security=true;TrustServerCertificate=True");
+        //    base.OnConfiguring(optionsBuilder);
+        //}       
         #endregion
-
 
         #region Db Sets
 
