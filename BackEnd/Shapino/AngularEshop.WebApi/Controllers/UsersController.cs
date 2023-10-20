@@ -6,17 +6,17 @@ namespace AngularEshop.WebApi.Controllers
     public class UsersController : SiteBaseController
     {
         #region Constractor
-        private IUserService userService;
+        private IUserService UserService;
         public UsersController(IUserService userService)
         {
-            this.userService = userService;
+            this.UserService = userService;
         }
         #endregion
         #region UserList
         [HttpGet(template: "Users")]
         public async Task<IActionResult> Users()
         {
-            return new ObjectResult(await userService.GetAllUsers());
+            return new ObjectResult(await UserService.GetAllUsers());
         }
         #endregion
     }

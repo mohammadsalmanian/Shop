@@ -160,3 +160,11 @@ G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\obj\Debug\net6.0\AngularEsho
 G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\obj\Debug\net6.0\ref\AngularEshop.WebApi.dll
 G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\obj\Debug\net6.0\AngularEshop.WebApi.pdb
 G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\obj\Debug\net6.0\AngularEshop.WebApi.genruntimeconfig.cache
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+G:\shopino\Shop\BackEnd\Shapino\AngularEshop.WebApi\obj\Debug\net6.0\AngularEshop.WebApi.MvcApplicationPartsAssemblyInfo.cs

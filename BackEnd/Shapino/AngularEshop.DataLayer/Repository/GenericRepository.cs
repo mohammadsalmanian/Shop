@@ -7,43 +7,44 @@ namespace AngularEshop.DataLayer.Repository
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity
     {
         #region constructor
-        private AngularEshopDbContext context;
+        private AngularEshopDbContext Context;
         //از داخل کانتکست میخواهیم دی بی ست تی انتیتی را دریافت کنیم
-        private DbSet<TEntity> dbset;
+        private DbSet<TEntity> Dbset;
         public GenericRepository(AngularEshopDbContext context)
         {
-            this.context = context;
-            this.dbset = this.context.Set<TEntity>();
+            this.Context = context;
+            this.Dbset = this.Context.Set<TEntity>();
         }
         // کانتکست که شمای دیتابیس و تی انتیتی که از بیس انتیتی تبعیت میکن پس میگیم کانتکست مجموعه تی انتیتی را بده به دی بی ست
         #endregion
       
         public IQueryable<TEntity> GetEntitiesQuery()
         {
-            return this.dbset.AsQueryable();
+            return this.Dbset.AsQueryable();
         }
 
         public async Task<TEntity> GetEntityById(long entityId)
         {
-            return await dbset.SingleOrDefaultAsync(e => e.Id == entityId);
+            return await Dbset.SingleOrDefaultAsync(e => e.Id == entityId);
         }
 
         public async Task AddEntity(TEntity entity)
         {
             entity.CreateDate= DateTime.Now;
             entity.LastUpdateDate = entity.CreateDate;
-            await dbset.AddAsync(entity);
+            await Dbset.AddAsync(entity);
         }
 
         public void UpdateEntity(TEntity entity)
         {
             entity.LastUpdateDate = DateTime.Now;
-            dbset.Update(entity);
+            this.Dbset.Update(entity);
         }
 
         public void RemoveEntity(TEntity entity)
         {
            entity.IsDelete = true;
+
             UpdateEntity(entity);   
         }
 
@@ -55,13 +56,13 @@ namespace AngularEshop.DataLayer.Repository
 
         public async Task SaveChanges()
         {
-            await context.SaveChangesAsync();
+            await Context.SaveChangesAsync();
         }
 
 
         public void Dispose()
         {
-            context?.Dispose();
+            Context?.Dispose();
         }
     }
 }

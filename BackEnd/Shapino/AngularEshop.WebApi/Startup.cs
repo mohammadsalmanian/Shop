@@ -3,14 +3,7 @@ using AngularEshop.Core.Services.Interfaces;
 using AngularEshop.Core.Utilities.Extensions.Connection;
 using AngularEshop.DataLayer.Repository;
 using Microsoft.AspNetCore.Mvc;
-//using System.IO;
-//using Microsoft.EntityFrameworkCore;
-//using Microsoft.Extensions.Configuration;
-//using Microsoft.Extensions.DependencyInjection;
-//using Microsoft.AspNetCore.Builder;
-//using Microsoft.AspNetCore.Hosting;
-//using AngularEshop.DataLayer.Context;
-//using AngularEshop.DataLayer.Entities.Account;
+
 namespace AngularEshop.WebApi
 {
     public class Startup
@@ -41,17 +34,21 @@ namespace AngularEshop.WebApi
                 var connectionString = "ConnectionStrings:AngularEshopConnection:Development";
                 options.UseSqlServer(Configuration[connectionString]);
             });*/
+
             //services.AddScoped به ازای هر درخواست یک اینستنت ساخته میشود
             //services.AddTransient  به ازای هر درخواست اگر توی هر کلاس یا کانست رکتوری نیاز به یک آیتم باش به ازای هر نیاز یک اینستنت ساخته میشود
 
             //در این روش میگوییم اگر آی جنریک ریپوزیتوری یوزر بود جنریک ریپوزیتوری یوزر را بده
             //services.AddScoped<IGenericRepository<User>, GenericRepository<User>>();
             //روش بالا برای هر نوع باید یک خط بنویسیم مثلا یوزر و هتل و 
+
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             #endregion
 
             #region Application Services
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ISliderService,SliderService>();
+            services.AddScoped<IProductService, ProductService>();  
             #endregion
             //services.AddMvc(option => option.EnableEndpointRouting = false) ;
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
@@ -70,7 +67,7 @@ namespace AngularEshop.WebApi
             }
 
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             //app.UseEndpoints(endpoints =>
             //{
             //    endpoints.MapControllerRoute("default", "{controller=Users}/{action=Users}/{id?}");

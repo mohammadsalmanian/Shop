@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using AngularEshop.Core.Services.Interfaces;
+﻿using AngularEshop.Core.Services.Interfaces;
 using AngularEshop.DataLayer.Entities.Account;
 using AngularEshop.DataLayer.Repository;
 using Microsoft.EntityFrameworkCore;
