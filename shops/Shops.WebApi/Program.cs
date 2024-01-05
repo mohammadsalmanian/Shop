@@ -45,7 +45,7 @@ app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions() // for files in content folder  
 {
     FileProvider = new PhysicalFileProvider(
-Path.Combine(Directory.GetCurrentDirectory(), "content"))   
+Path.Combine(Directory.GetCurrentDirectory(), "Rote"))   
 });
 
 app.Run();
