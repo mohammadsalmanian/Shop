@@ -27,7 +27,7 @@ export class SliderService {
   public getCurrentSliders(): Observable<Slider[]> {
     return this.homeSliders;
   }
- 
+  
   public setCurrentSliders(Slider: Slider[]) {
     this.homeSliders.next(Slider);
   }
