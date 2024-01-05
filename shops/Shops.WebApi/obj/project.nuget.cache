@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Gd2sNwSGH4XF1i6LTL53zF8HFqQBZ8h569GEo+rKiV1SMI7tnR6Udh6vjyv5Y3sA95b7JF6zYWj8z9a1yakzA==",
+  "dgSpecHash": "kA/BwZOh5Xlo49CHLVGlMc6yQhnkyvQFnJ+eTh9hu5+/FNia7333qDFM/F+C5l/j8j2z5J6nAoR6Lz/xO372Vw==",
   "success": true,
-  "projectFilePath": "G:\\shops\\Shops\\Shops.WebApi\\Shops.WebApi.csproj",
+  "projectFilePath": "G:\\shopino\\Shop\\shops\\Shops.WebApi\\Shops.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohammad\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mohammad\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

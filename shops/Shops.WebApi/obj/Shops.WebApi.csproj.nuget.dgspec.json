@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\shops\\Shops\\Shops.WebApi\\Shops.WebApi.csproj": {}
+    "G:\\shopino\\Shop\\shops\\Shops.WebApi\\Shops.WebApi.csproj": {}
   },
   "projects": {
-    "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj": {
+    "G:\\shopino\\Shop\\shops\\Shops.Core\\Shops.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj",
+        "projectUniqueName": "G:\\shopino\\Shop\\shops\\Shops.Core\\Shops.Core.csproj",
         "projectName": "Shops.Core",
-        "projectPath": "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj",
+        "projectPath": "G:\\shopino\\Shop\\shops\\Shops.Core\\Shops.Core.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "G:\\shops\\Shops\\Shops.Core\\obj\\",
+        "outputPath": "G:\\shopino\\Shop\\shops\\Shops.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
-                "projectPath": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj"
+              "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
+                "projectPath": "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
+    "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
+        "projectUniqueName": "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
         "projectName": "Shops.DataLayer",
-        "projectPath": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
+        "projectPath": "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "G:\\shops\\Shops\\Shops.DataLayer\\obj\\",
+        "outputPath": "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -160,14 +160,14 @@
         }
       }
     },
-    "G:\\shops\\Shops\\Shops.WebApi\\Shops.WebApi.csproj": {
+    "G:\\shopino\\Shop\\shops\\Shops.WebApi\\Shops.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\shops\\Shops\\Shops.WebApi\\Shops.WebApi.csproj",
+        "projectUniqueName": "G:\\shopino\\Shop\\shops\\Shops.WebApi\\Shops.WebApi.csproj",
         "projectName": "Shops.WebApi",
-        "projectPath": "G:\\shops\\Shops\\Shops.WebApi\\Shops.WebApi.csproj",
+        "projectPath": "G:\\shopino\\Shop\\shops\\Shops.WebApi\\Shops.WebApi.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "G:\\shops\\Shops\\Shops.WebApi\\obj\\",
+        "outputPath": "G:\\shopino\\Shop\\shops\\Shops.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -188,11 +188,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj": {
-                "projectPath": "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj"
+              "G:\\shopino\\Shop\\shops\\Shops.Core\\Shops.Core.csproj": {
+                "projectPath": "G:\\shopino\\Shop\\shops\\Shops.Core\\Shops.Core.csproj"
               },
-              "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
-                "projectPath": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj"
+              "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
+                "projectPath": "G:\\shopino\\Shop\\shops\\Shops.DataLayer\\Shops.DataLayer.csproj"
               }
             }
           }
