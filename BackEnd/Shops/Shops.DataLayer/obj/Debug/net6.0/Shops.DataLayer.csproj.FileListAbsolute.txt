@@ -1,0 +1,14 @@
+G:\shops\Shops\Shops.DataLayer\bin\Debug\net6.0\Shops.DataLayer.deps.json
+G:\shops\Shops\Shops.DataLayer\bin\Debug\net6.0\Shops.DataLayer.runtimeconfig.json
+G:\shops\Shops\Shops.DataLayer\bin\Debug\net6.0\Shops.DataLayer.dll
+G:\shops\Shops\Shops.DataLayer\bin\Debug\net6.0\ref\Shops.DataLayer.dll
+G:\shops\Shops\Shops.DataLayer\bin\Debug\net6.0\Shops.DataLayer.pdb
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.csproj.AssemblyReference.cache
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.AssemblyInfoInputs.cache
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.AssemblyInfo.cs
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.csproj.CoreCompileInputs.cache
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.dll
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\ref\Shops.DataLayer.dll
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.pdb
+G:\shops\Shops\Shops.DataLayer\obj\Debug\net6.0\Shops.DataLayer.genruntimeconfig.cache
