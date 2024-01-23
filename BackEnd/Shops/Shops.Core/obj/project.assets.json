@@ -3525,11 +3525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj",
+      "projectUniqueName": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.Core\\Shops.Core.csproj",
       "projectName": "Shops.Core",
-      "projectPath": "G:\\shops\\Shops\\Shops.Core\\Shops.Core.csproj",
+      "projectPath": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.Core\\Shops.Core.csproj",
       "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-      "outputPath": "G:\\shops\\Shops\\Shops.Core\\obj\\",
+      "outputPath": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3550,8 +3550,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
-              "projectPath": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj"
+            "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj": {
+              "projectPath": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj"
             }
           }
         }

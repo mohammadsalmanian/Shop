@@ -3308,11 +3308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
+      "projectUniqueName": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
       "projectName": "Shops.DataLayer",
-      "projectPath": "G:\\shops\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
+      "projectPath": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.DataLayer\\Shops.DataLayer.csproj",
       "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-      "outputPath": "G:\\shops\\Shops\\Shops.DataLayer\\obj\\",
+      "outputPath": "G:\\shopino\\Shop\\BackEnd\\Shops\\Shops.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
